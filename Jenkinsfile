@@ -9,7 +9,7 @@ pipeline{
     stages{
         stage('Git-checkout'){
             steps{
-                git branch: 'dev' , url: ''
+                git branch: 'dev' , url: 'https://github.com/Thrusha26/web-application.git'
             }
         }
         stage('Code Compile'){
